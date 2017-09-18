@@ -1,0 +1,99 @@
+|          Header           | Header Value                                                                                                                                                                                                                                              |
+|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Authentication-Results    | hotmail.com; spf=pass (sender IP is 69.174.83.198) smtp.mailfrom=1009576100-158370-qb-qbDB@bounces.salsalabs.net; dkim=none header.d=openmedia.org; dkim=pass header.d=mail.salsalabs.net; x-hmca=pass header.id=contact=openmedia.org@mail.salsalabs.net |
+| Content-Transfer-Encoding | 7bit                                                                                                                                                                                                                                                      |
+| Content-Type              | text/plain; charset="utf-8" || multipart/alternative;                                                                                                                                                                                                     |
+| DKIM-Signature            | v=1; a=rsa-sha1; d=mail.salsalabs.net; s=s1024-dkim; c=relaxed/relaxed;                                                                                                                                                                                   |
+| Date                      | Tue, 15 Sep 2015 15:28:30 -0400 (EDT)                                                                                                                                                                                                                     |
+| Envelope-From             | <1009576100-158370-qb-qbDB@bounces.salsalabs.net>                                                                                                                                                                                                         |
+| From                      | David Christopher <contact@openmedia.org>                                                                                                                                                                                                                 |
+| List-Unsubscribe          | <http://qb.salsalabs.com/o/4004/p/salsa/supporter/unsubscribe/public/index.sjs?Email=myemail@email.com&email_blast_KEY=158370>                                                                                                                     |
+| MIME-Version              | 1.0                                                                                                                                                                                                                                                       |
+| Message-ID                | <1009576100.382065883@qb.qbDB.mail.salsalabs.com>                                                                                                                                                                                                         |
+| Received                  | from [10.174.82.88] ([10.174.82.88:52602] helo=dispatch8.salsalabs.net) || from m198.salsalabs.net ([69.174.83.198]) by SNT004-MC3F47.hotmail.com with Microsoft SMTPSVC(7.5.7601.23143);                                                                 |
+| Reply-To                  | contact@openmedia.org                                                                                                                                                                                                                                     |
+| Return-Path               | <1009576100-158370-qb-qbDB@bounces.salsalabs.net>                                                                                                                                                                                                         |
+| Sender                    | contact=openmedia.org@mail.salsalabs.net                                                                                                                                                                                                                  |
+| Subject                   | If you speak out, we'll get the web we want                                                                                                                                                                                                               |
+| To                        | myemail@email.com                                                                                                                                                                                                                                  |
+| X-AUTH-Result             | PASS                                                                                                                                                                                                                                                      |
+| X-Message-Delivery        | Vj0xLjE7dXM9MDtsPTE7YT0wO0Q9MjtHRD0xO1NDTD00                                                                                                                                                                                                              |
+| X-Message-Info            | 11chDOWqoTloIZNfiLa2ofECuaAoAZIryij5ZRMGPTpugJDNg1T9IJLdKf8w39WL9hWv+MQ3DGc+W7gaYi9crjO6V/gzCOpO1n/FMAUwT9/LOUjNWHMrMCeVsolc6CO3k/jkwvZxgkN4ivS32ICVDEQREAh03Fk3WIXxyWjaCyKAe8zp+jL1pqY7xJnkDPDS6ESUuQUBkVIIoCEJhayZnIXi6sCKs9K04rAvPs6w/nVF73nWsz1+LQ==  |
+| X-Message-Status          | sF:n                                                                                                                                                                                                                                                      |
+| X-OriginalArrivalTime     | 15 Sep 2015 19:28:30.0774 (UTC) FILETIME=[B42A5D60:01D0EFEC]                                                                                                                                                                                              |
+| X-SID-PRA                 | contact=openmedia.org@mail.salsalabs.net                                                                                                                                                                                                                  |
+| X-SID-Result              | PASS                                                                                                                                                                                                                                                      |
+| X-campaignid              | salsaqb4004-158370                                                                                                                                                                                                                                        |
+| X_email_KEY               | 1009576100                                                                                                                                                                                                                                                |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|         Email         | Return Path                                     | Path Status |
+|-----------------------|-------------------------------------------------|-------------|
+| contact@openmedia.org | 1009576100-158370-qb-qbDB@bounces.salsalabs.net | SUSPICIOUS  |
+-----------------------------------------------------------------------------------------
+
+|              Time Stamps              | Comparison                               | Status |
+|---------------------------------------|------------------------------------------|--------|
+| Tue, 15 Sep 2015 15:28:30 -0400 (EDT) | 2015-09-15T12:28:30--                    |   OK   |
+| Tue, 15 Sep 2015 15:28:30 -0400       | 2015-09-15T15:28:30--2015-09-15T12:28:30 |   OK   |
+| Tue, 15 Sep 2015 12:28:30 -0700       | 2015-09-15T15:28:30--2015-09-15T15:28:30 |   OK   |
+---------------------------------------------------------------------------------------------
+
+
+
+[!] WARNING: EMAIL WAS SENT THROUGH NON-MAIL SERVICE PORT FROM: 10.174.82.88:52602
+[!] SUSPICIOUS: EMAIL WAS SENT USING SENDMAIL SCRIPT: sendmail.php
+    RECORD: sendmail.php=laskdfjklaskdf
+
+
+CHECKING NAME: David Christopher....
+[!] NAME DISCONTINUITY FOUND IN EMAIL ADDRESS: contact@openmedia.org
+[!] WHOIS LOOKUP IS NOT SUPPORTED ON MSWin32 SYSTEMS
+
+======GENERATED NUMBER LINED HEADERS======
+
+1	x-store-info:CnuewmGKkJzNjuOw4Ko28wDYwNBXXZMVufwpTBpLLY7rEQ2c5OIIbHj8wIz1VQqS0KMjtUn2/KeV50WPSxpaTUDFZeM+kljpR7r6RnX/Ubsy/xHHs6hA5wvEmizfFSjCdorAro2DDDEtkDtsfUaVWw==
+2	Authentication-Results: hotmail.com; spf=pass (sender IP is 69.174.83.198) smtp.mailfrom=1009576100-158370-qb-qbDB@bounces.salsalabs.net; dkim=none header.d=openmedia.org; dkim=pass header.d=mail.salsalabs.net; x-hmca=pass header.id=contact=openmedia.org@mail.salsalabs.net
+3	X-SID-PRA: contact=openmedia.org@mail.salsalabs.net
+4	X-AUTH-Result: PASS
+5	X-SID-Result: PASS
+6	X-Message-Status: sF:n
+7	X-Message-Delivery: Vj0xLjE7dXM9MDtsPTE7YT0wO0Q9MjtHRD0xO1NDTD00
+8	X-Message-Info: 11chDOWqoTloIZNfiLa2ofECuaAoAZIryij5ZRMGPTpugJDNg1T9IJLdKf8w39WL9hWv+MQ3DGc+W7gaYi9crjO6V/gzCOpO1n/FMAUwT9/LOUjNWHMrMCeVsolc6CO3k/jkwvZxgkN4ivS32ICVDEQREAh03Fk3WIXxyWjaCyKAe8zp+jL1pqY7xJnkDPDS6ESUuQUBkVIIoCEJhayZnIXi6sCKs9K04rAvPs6w/nVF73nWsz1+LQ==
+9	Received: from m198.salsalabs.net ([69.174.83.198]) by SNT004-MC3F47.hotmail.com with Microsoft SMTPSVC(7.5.7601.23143);
+10		 Tue, 15 Sep 2015 12:28:30 -0700
+11	sendmail.php=laskdfjklaskdf
+12	Return-Path: <1009576100-158370-qb-qbDB@bounces.salsalabs.net>
+13	DKIM-Signature: v=1; a=rsa-sha1; d=mail.salsalabs.net; s=s1024-dkim; c=relaxed/relaxed;
+14		q=dns/txt; i=@mail.salsalabs.net; t=1442345310;
+15		h=From:Subject:Date:To:MIME-Version:Content-Type;
+16		bh=muTymvTwxTw6vly4PbxgHZuomNI=;
+17		Senmail.php=
+18		b=PZn++LoE2yrR+kmUsnvQY7CjS+cnRDC3at+LLbt7OL4v+jUb25O9Z4TKla70dJB5
+19		r7Ir9L6JDMckUTflx/XD7amowt091aYHmmes1GGDkWIcDOXKGvJU0dLY2HqgigmR
+20		/UUjHsQXu5lOroxdG/Wy7/RLCWfqIdEDPLr1iQKSdzE=;
+21	Received: from [10.174.82.88] ([10.174.82.88:52602] helo=dispatch8.salsalabs.net)
+22		by mailer3.salsalabs.net (envelope-from <1009576100-158370-qb-qbDB@bounces.salsalabs.net>)
+23		(ecelerity 3.5.10.45038 r(Core:3.5.10.0)) with ESMTP
+24		id 58/F7-19245-E5178F55; Tue, 15 Sep 2015 15:28:30 -0400
+25	Date: Tue, 15 Sep 2015 15:28:30 -0400 (EDT)
+26	From: David Christopher <contact@openmedia.org>
+27	Sender: contact=openmedia.org@mail.salsalabs.net
+28	Reply-To: contact@openmedia.org
+29	To: myemail@email.com
+30	Message-ID: <1009576100.382065883@qb.qbDB.mail.salsalabs.com>
+31	Subject: If you speak out, we'll get the web we want
+32	MIME-Version: 1.0
+33	Content-Type: multipart/alternative; 
+34		boundary="----=_Part_7900937_840699043.1442345310323"
+35	Envelope-From: <1009576100-158370-qb-qbDB@bounces.salsalabs.net>
+36	List-Unsubscribe: <http://qb.salsalabs.com/o/4004/p/salsa/supporter/unsubscribe/public/index.sjs?Email=myemail@email.com&email_blast_KEY=158370>
+37	X_email_KEY: 1009576100
+38	X-campaignid: salsaqb4004-158370
+39	X-OriginalArrivalTime: 15 Sep 2015 19:28:30.0774 (UTC) FILETIME=[B42A5D60:01D0EFEC]
+40	
+41	------=_Part_7900937_840699043.1442345310323
+42	Content-Type: text/plain; charset="utf-8"
+43	Content-Transfer-Encoding: 7bit
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

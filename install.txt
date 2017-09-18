@@ -1,0 +1,4 @@
+perl -MCPAN -e shell
+
+cpan> install Text::Table
+cpan> install DateTime::Format::Strptime
