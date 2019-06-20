@@ -14,14 +14,14 @@
 #                Received with
 #                Received by
 #
-use warnings;
+#
 use strict;
 use Config;
 use Text::Table; # use Text::Table for table generation
 use DateTime::Format::Strptime qw ();
 #use Net::XWhois;
 #use Socket;
-no warnings 'uninitialized';
+no warnings ;
 
 my %header_information; #create a hash for header information
 
@@ -138,7 +138,7 @@ sub check_timestamps {
     
     my $counter = 1; #create counter to help iterate through items higher in the array
     foreach my $time (@dates) {
-        if ($dates[$counter] le $time) { #if the date ahead of $time is greater than or equal to $time the time stamp is ok
+        if ($dates[$counter] ge $time || $dates[$counter] eq undef) { #if the date ahead of $time is greater than or equal to $time the time stamp is ok
             $flags{"$time--$dates[$counter]"} = "OK"
         }
         else {
@@ -509,4 +509,3 @@ sub whois_lookup{
 
 
 &main()
-
